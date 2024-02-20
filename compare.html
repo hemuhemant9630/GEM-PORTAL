@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Price Comparison</title>
+    <link rel="stylesheet" href="compare.css">
+    <link rel="stylesheet" href="loco.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div class="screen">
+        <div class="header"> 
+            <!-- Logo added here -->
+            <div class="logo-container">
+                <img src="./Screenshot 2023-12-20 012551.png" alt="Logo" class="logo"> <!-- Replace path_to_your_logo.png with the actual path to your logo image -->
+            </div>
+            
+            <!-- Search container aligned horizontally with the logo -->
+            <div class="search-container">
+                <input type="text" id="productInput" placeholder="Enter Product Name">
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+        <div class="rect">
+        <div class="rectangle">
+
+            <div class="sub-rectangle1">
+                GeM-Marketplace
+            </div>
+            <div class="sub-rect-container">
+                <div class="sub-rect">
+                  
+                    
+                </div>
+                <div class="sub-rect"></div>
+                <div class="sub-rect"></div>
+            </div>
+        </div>
+
+        <div class="rectangle2">
+
+            <div class="sub-rectangle2">
+                India-MART
+            </div>
+            <div class="sub-rect-container2">
+                <div class="sub-rect2"></div>
+                <div class="sub-rect2"></div>
+                <div class="sub-rect2"></div>
+            </div>
+        </div>
+
+        <div class="rectangle">
+
+            <div class="sub-rectangle1">
+                Amazon
+            </div>
+            <div class="sub-rect-container">
+                <div class="sub-rect">
+                    <div>
+                        <img src="./amazon1.jpg" alt="" class="logo border"> 
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.in/Samsung-Galaxy-26-31-S-Pen-Tablet/dp/B0B3JK8YQW/ref=sr_1_3?crid=1UXOOUJ5HHWR2&keywords=samsung%2Bgalaxy%2Btab%2Bs6%2Blite&qid=1703035985&sprefix=samsung%2Bgalaxy%2Btab%2Bs6%2Blite%2B%27%2Caps%2C201&sr=8-3&th=1">
+                         
+                            Samsung Galaxy Tab S6 Lite 26.31 cm (10.4 inch), S-Pen in Box, Slim and Light, Dolby Atmos Sound, 4 GB RAM, 64 GB ROM, Wi-Fi Tablet, Gray
+                        </a>
+                    </div>
+                    <div class="price">₹26,499</div>
+                    <div class="rating">
+                        <div class="stars">
+                            ⭐ 
+                        </div>
+                        <div class="text">
+                            (191/398 ratings)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub-rect">
+                    <div>
+                        <img src="./amazon1.jpg" alt="" class="logo border"> 
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.in/Samsung-Galaxy-26-31-S-Pen-Tablet/dp/B0B3JK8YQW/ref=sr_1_3?crid=1UXOOUJ5HHWR2&keywords=samsung%2Bgalaxy%2Btab%2Bs6%2Blite&qid=1703035985&sprefix=samsung%2Bgalaxy%2Btab%2Bs6%2Blite%2B%27%2Caps%2C201&sr=8-3&th=1">
+                         
+                            Samsung Galaxy Tab S6 Lite 26.31 cm (10.4 inch), S-Pen in Box, Slim and Light, Dolby Atmos Sound, 4 GB RAM, 64 GB ROM, Wi-Fi Tablet, blue
+                        </a>
+                    </div>
+                    <div class="price">₹26,499</div>
+                    <div class="rating">
+                        <div class="stars">
+                            ⭐ 
+                        </div>
+                        <div class="text">
+                            (191/398 ratings)
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-rect">
+                    <div>
+                        <img src="./amazon1.jpg" alt="" class="logo border"> 
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.in/Samsung-Galaxy-26-31-S-Pen-Tablet/dp/B0B3JK8YQW/ref=sr_1_3?crid=1UXOOUJ5HHWR2&keywords=samsung%2Bgalaxy%2Btab%2Bs6%2Blite&qid=1703035985&sprefix=samsung%2Bgalaxy%2Btab%2Bs6%2Blite%2B%27%2Caps%2C201&sr=8-3&th=1">
+                         
+                            Samsung Galaxy Tab S6 Lite 26.31 cm (10.4 inch), S-Pen in Box, Slim and Light, Dolby Atmos Sound, 8 GB RAM, 128 GB ROM, Wi-Fi Tablet, golden
+                        </a>
+                    </div>
+                    <div class="price">₹32,499</div>
+                    <div class="rating">
+                        <div class="stars">
+                            ⭐ 
+                        </div>
+                        <div class="text">
+                            (191/398 ratings)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rectangle2">
+
+            <div class="sub-rectangle2">
+                Flipkart
+            </div>
+            <div class="sub-rect-container2">
+                <div class="sub-rect2"></div>
+                <div class="sub-rect2"></div>
+                <div class="sub-rect2"></div>
+            </div>
+        </div>
+    </div>
+
+        <div class="footer">
+            © 2023 GeMWatch Bharat All rights reserved
+        </div>
+
+
+        <div class="chat-module">
+            <textarea id="chatInput" placeholder="Enter your query here..."></textarea>
+            <button id="chatSubmit">Send</button>
+            <div id="chatResponse"></div>
+            <button id="increaseSize">+</button>
+            <button id="decreaseSize">-</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="compare.js"></script>
+</body>
+</html>
